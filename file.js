@@ -1,6 +1,6 @@
 const http = require('http');
 const fs = require('fs');
-
+var a=3;
 const server= http.createServer();
 
 server.on("request",(req,res)=>
